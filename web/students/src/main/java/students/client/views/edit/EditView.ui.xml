@@ -1,0 +1,27 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <g:HTMLPanel>
+        <g:PopupPanel ui:field="popupPanel" glassEnabled="true">
+            <g:VerticalPanel ui:field="verticalPanel">
+                <g:HorizontalPanel>
+                    <g:Label text="id:"/>
+                    <g:Label ui:field="idLabel" />
+                </g:HorizontalPanel>
+                <g:HorizontalPanel>
+                    <g:Label text="create:"/>
+                    <g:Label ui:field="dateMakeLabel"/>
+                </g:HorizontalPanel>
+                <g:HorizontalPanel>
+                    <g:Label text="change:"/>
+                    <g:Label ui:field="dateChangeLabel"/>
+                </g:HorizontalPanel>
+                <g:Label text="Name:"/>
+                <g:TextBox ui:field="nameTextBox" />
+                <g:HorizontalPanel>
+                    <g:Button ui:field="saveButton" text="save"/>
+                    <g:Button ui:field="closeButton" text="close"/>
+                </g:HorizontalPanel>
+            </g:VerticalPanel>
+        </g:PopupPanel>
+    </g:HTMLPanel>
+</ui:UiBinder>

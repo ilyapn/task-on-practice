@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='main'>
+
+    <inherits name="com.google.gwt.core.Core"/>
+    <inherits name="com.google.gwt.inject.Inject"/>
+    <inherits name="app.App"/>
+
+    <entry-point class='main.client.Main'/>
+
+    <source path='client'/>
+
+</module>
